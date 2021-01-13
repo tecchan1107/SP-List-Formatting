@@ -1,0 +1,157 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+    "hideSelection": true,
+    "hideColumnHeader": true,
+    "rowFormatter": {
+        "elmType": "div",
+        "style": {
+            "display": "flex",
+            "flex-direction": "row",
+            "height": "200px",
+            "width": "400px"
+        },
+        "children": [
+            {
+                "elmType": "div",
+                "style": {
+                    "font-size": "20px",
+                    "width": "50%",
+                    "text-align": "center"
+                },
+                "txtContent": "[$Title]"
+            },
+            {
+                "elmType": "div",
+                "style": {
+                    "display": "flex",
+                    "flex-direction": "column",
+                    "align-items": "center",
+                    "justify-content": "center",
+                    "height": "100%",
+                    "width": "50%"
+                },
+                "children": [
+                    {
+                        "elmType": "div",
+                        "style": {
+                            "border-width": "2px",
+                            "border-style": "solid",
+                            "height": "50%"
+                        },
+                        "attributes": {
+                            "class": "ms-borderColor-neutralSecondary"
+                        }
+                    },
+                    {
+                        "elmType": "div",
+                        "style": {
+                            "height": "30px",
+                            "width": "30px",
+                            "border-radius": "50%",
+                            "cursor": "pointer",
+                            "outline": "none"
+                        },
+                        "attributes": {
+                            "class": "ms-bgColor-themePrimary"
+                        },
+                        "customCardProps": {
+                            "directionalHint": "rightCenter",
+                            "isBeakVisible": true,
+                            "openOnEvent": "click",
+                            "formatter": {
+                                "elmType": "div",
+                                "style": {
+                                    "display": "flex",
+                                    "flex-direction": "column",
+                                    "height": "250px",
+                                    "width": "550px"
+                                },
+                                "children": [
+                                    {
+                                        "elmType": "div",
+                                        "style": {
+                                            "display": "flex",
+                                            "align-items": "center",
+                                            "height": "15%",
+                                            "width": "100%",
+                                            "color": "white",
+                                            "font-size": "20px",
+                                            "padding-top": "3px",
+                                            "padding-bottom": "3px",
+                                            "margin-top": "-2px"
+                                        },
+                                        "attributes": {
+                                            "class": "ms-bgColor-themePrimary"
+                                        },
+                                        "children": [
+                                            {
+                                                "elmType": "span",
+                                                "txtContent": "[$Title]",
+                                                "style": {
+                                                    "margin-left": "15px"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "elmType": "div",
+                                        "style": {
+                                            "height": "80%",
+                                            "width": "100%",
+                                            "overflow-y": "scroll",
+                                            "display": "flex",
+                                            "justify-content": "center"
+                                        },
+                                        "children": [
+                                            {
+                                                "elmType": "div",
+                                                "style": {
+                                                    "width": "90%",
+                                                    "margin-top": "10px"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "elmType": "img",
+                                                        "style": {
+                                                            "float": "left",
+                                                            "max-width": "50%",
+                                                            "max-height": "90%",
+                                                            "margin-right": "20px",
+                                                            "margin-bottom": "10px",
+                                                            "display": "=if([$Image.serverRelativeUrl] == '' ,'none' ,'')"
+                                                        },
+                                                        "attributes": {
+                                                            "src": "[$Image.serverRelativeUrl]"
+                                                        }
+                                                    },
+                                                    {
+                                                        "elmType": "span",
+                                                        "style": {
+                                                            "padding-top": "10px"
+                                                        },
+                                                        "txtContent": "[$Description]"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "elmType": "div",
+                        "style": {
+                            "border-width": "2px",
+                            "border-style": "solid",
+                            "height": "50%"
+                        },
+                        "attributes": {
+                            "class": "ms-borderColor-neutralSecondary"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}
