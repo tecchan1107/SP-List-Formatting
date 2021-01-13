@@ -13,25 +13,25 @@ Title         | Single Line Text
 Description   | Multi Line Text
 Image         | Image
 
-## Vertival Timeline Format Sample
+## Vertical Timeline Format Sample
 
-### Vertival Timeline Format Sample 1
+### Vertical Timeline Format Sample 1
 
 Click on the circle to see the description.
 
-![screenshot of the sample](./Image/vertival-timeline-format-sample1.png)
+![screenshot of the sample](./Image/vertical-timeline-format-sample1.png)
 
-### Vertival Timeline Format Sample 2
+### Vertical Timeline Format Sample 2
 
 The description is always displayed.
 
-![screenshot of the sample](./Image/vertival-timeline-format-sample2.png)
+![screenshot of the sample](./Image/vertical-timeline-format-sample2.png)
 
-### Vertival Timeline Format Sample 3
+### Vertical Timeline Format Sample 3
 
 The description is always displayed. Also, the explanation is displayed alternately on the left and right.
 
-![screenshot of the sample](./Image/vertival-timeline-format-sample3.png)
+![screenshot of the sample](./Image/vertical-timeline-format-sample3.png)
 
 ## Horizontal Timeline Format Sample
 
