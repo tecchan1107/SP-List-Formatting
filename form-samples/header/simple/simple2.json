@@ -1,0 +1,29 @@
+{
+    "elmType": "div",
+    "style": {
+        "display": "flex",
+        "flex-direction": "column"
+    },
+    "children": [
+        {
+            "elmType": "div",
+            "style": {
+                "width": "100%"
+            },
+            "txtContent": "見出し（Heading）",
+            "attributes": {
+                "class": "ms-fontColor-neutralPrimary ms-fontSize-28 ms-fontWeight-bold"
+            }
+        },
+        {
+            "elmType": "div",
+            "style": {
+                "width": "100%",
+                "border-bottom": "double 5px"
+            },
+            "attributes": {
+                "class": "ms-fontColor-themePrimary"
+            }
+        }
+    ]
+}

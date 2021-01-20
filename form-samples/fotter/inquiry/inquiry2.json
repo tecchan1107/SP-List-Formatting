@@ -1,0 +1,40 @@
+{
+    "elmType": "div",
+    "style": {
+        "displya": "flex",
+        "justify-content": "flex-end"
+    },
+    "attributes": {
+        "class": "ms-fontSize-16"
+    },
+    "children": [
+        {
+            "elmType": "a",
+            "style": {
+                "text-decoration": "none",
+                "padding": "10px",
+                "border-radius": "15px"
+            },
+            "attributes": {
+                "href": "お問い合わせ先のURL を入力（Microsoft Forms など）",
+                "target": "_blank",
+                "class": "ms-fontColor-white ms-fontWeight-bold ms-bgColor-themePrimary ms-bgColor-themeTertiary--hover"
+            },
+            "children": [
+                {
+                    "elmType": "span",
+                    "attributes": {
+                        "iconName": "Mail"
+                    }
+                },
+                {
+                    "elmType": "span",
+                    "style": {
+                        "margin-left": "10px"
+                    },
+                    "txtContent": "ご質問・お問い合わせ（Ask a question）"
+                }
+            ]
+        }
+    ]
+}

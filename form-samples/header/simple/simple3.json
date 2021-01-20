@@ -1,0 +1,35 @@
+{
+    "elmType": "div",
+    "attributes": {
+        "class": "ms-bgColor-themePrimary ms-fontColor-white"
+    },
+    "children": [
+        {
+            "elmType": "div",
+            "style": {
+                "margin": "10px",
+                "width": "100%",
+                "border": "2px dashed",
+                "padding": "10px",
+                "display": "flex",
+                "flex-direction": "column"
+            },
+            "children": [
+                {
+                    "elmType": "div",
+                    "txtContent": "見出し（Heading）",
+                    "attributes": {
+                        "class": "ms-fontSize-28 ms-fontWeight-bold"
+                    }
+                },
+                {
+                    "elmType": "div",
+                    "txtContent": "説明など（Description）",
+                    "attributes": {
+                        "class": "ms-fontSize-16"
+                    }
+                }
+            ]
+        }
+    ]
+}

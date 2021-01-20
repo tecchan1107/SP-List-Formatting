@@ -1,0 +1,12 @@
+{
+    "elmType": "div",
+    "txtContent": "見出し（Heading）",
+    "style": {
+        "padding": "0.5em 0",
+        "border-top": "solid 3px",
+        "border-bottom": "solid 3px"
+    },
+    "attributes": {
+        "class": "ms-fontColor-themePrimary ms-fontSize-28 ms-fontWeight-bold"
+    }
+}

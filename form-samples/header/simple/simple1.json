@@ -1,0 +1,37 @@
+{
+    "elmType": "div",
+    "style": {
+        "border-left": "10px solid",
+        "display": "flex",
+        "flex-direction": "column",
+        "justify-content": "center",
+        "min-height": "80px"
+    },
+    "attributes": {
+        "class": "ms-bgColor-themeLighter ms-fontColor-themePrimary"
+    },
+    "children": [
+        {
+            "elmType": "div",
+            "txtContent": "見出し（Heading）",
+            "style": {
+                "width": "100%",
+                "padding-left": "30px"
+            },
+            "attributes": {
+                "class": "ms-fontColor-neutralPrimary ms-fontSize-28 ms-fontWeight-bold"
+            }
+        },
+        {
+            "elmType": "div",
+            "txtContent": "説明など（Description）",
+            "style": {
+                "width": "100%",
+                "padding-left": "30px"
+            },
+            "attributes": {
+                "class": "ms-fontColor-neutralPrimary ms-fontSize-16"
+            }
+        }
+    ]
+}
