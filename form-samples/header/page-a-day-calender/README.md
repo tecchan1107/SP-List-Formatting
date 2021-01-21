@@ -1,0 +1,1 @@
+![screenshot of the sample](./screenshot.png)
