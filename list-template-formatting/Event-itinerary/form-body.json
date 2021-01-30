@@ -1,0 +1,30 @@
+{
+    "sections": [
+        {
+            "displayname": "Session Information",
+            "fields": [
+                "Session name",
+                "Session code",
+                "Session type",
+                "Description",
+                "Speaker(s)",
+                "Notes"
+            ]
+        },
+        {
+            "displayname": "Date and Time",
+            "fields": [
+                "Start date and time",
+                "End Date and Time",
+                "Duration"
+            ]
+        },
+        {
+            "displayname": "Place",
+            "fields": [
+                "Capacity",
+                "Location"
+            ]
+        }
+    ]
+}
