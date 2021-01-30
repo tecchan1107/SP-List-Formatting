@@ -1,0 +1,181 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+    "hideSelection": true,
+    "hideColumnHeader": true,
+    "rowFormatter": {
+        "elmType": "div",
+        "style": {
+            "display": "flex",
+            "flex-direction": "row",
+            "height": "270px",
+            "width": "900px"
+        },
+        "children": [
+            {
+                "elmType": "div",
+                "style": {
+                    "font-size": "20px",
+                    "width": "20%",
+                    "text-align": "center"
+                },
+                "txtContent": "[$Date]"
+            },
+            {
+                "elmType": "div",
+                "style": {
+                    "display": "flex",
+                    "flex-direction": "column",
+                    "align-items": "center",
+                    "justify-content": "center",
+                    "height": "100%",
+                    "width": "20%"
+                },
+                "children": [
+                    {
+                        "elmType": "div",
+                        "style": {
+                            "border-width": "2px",
+                            "border-style": "solid",
+                            "height": "50%"
+                        },
+                        "attributes": {
+                            "class": "ms-borderColor-neutralSecondary"
+                        }
+                    },
+                    {
+                        "elmType": "div",
+                        "style": {
+                            "height": "30px",
+                            "width": "30px",
+                            "border-radius": "50%",
+                            "outline": "none"
+                        },
+                        "attributes": {
+                            "class": "ms-bgColor-themePrimary"
+                        }
+                    },
+                    {
+                        "elmType": "div",
+                        "style": {
+                            "border-width": "2px",
+                            "border-style": "solid",
+                            "height": "50%"
+                        },
+                        "attributes": {
+                            "class": "ms-borderColor-neutralSecondary"
+                        }
+                    }
+                ]
+            },
+            {
+                "elmType": "div",
+                "style": {
+                    "display": "flex",
+                    "flex-direction": "column",
+                    "height": "80%",
+                    "width": "60%",
+                    "border": "1px solid",
+                    "margin-left": "20px"
+                },
+                "attributes": {
+                    "class": "ms-borderColor-neutralPrimary"
+                },
+                "children": [
+                    {
+                        "elmType": "div",
+                        "style": {
+                            "display": "flex",
+                            "align-items": "center",
+                            "height": "15%",
+                            "width": "100%",
+                            "color": "white",
+                            "font-size": "20px",
+                            "padding-top": "3px",
+                            "padding-bottom": "3px",
+                            "margin-top": "-2px"
+                        },
+                        "attributes": {
+                            "class": "ms-bgColor-themePrimary"
+                        },
+                        "children": [
+                            {
+                                "elmType": "span",
+                                "txtContent": "[$Date]",
+                                "style": {
+                                    "margin-left": "15px"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "elmType": "div",
+                        "style": {
+                            "height": "85%",
+                            "width": "100%",
+                            "overflow-y": "scroll",
+                            "display": "flex",
+                            "justify-content": "center"
+                        },
+                        "children": [
+                            {
+                                "elmType": "div",
+                                "style": {
+                                    "display": "flex",
+                                    "flex-direction": "row",
+                                    "width": "90%",
+                                    "margin-top": "10px"
+                                },
+                                "children": [
+                                    {
+                                        "elmType": "div",
+                                        "style": {
+                                            "display": "flex",
+                                            "flex-direction": "column",
+                                            "word-wrap": "break-word",
+                                            "width": "60%"
+                                        },
+                                        "children": [
+                                            {
+                                                "elmType": "span",
+                                                "txtContent": "[$DrugName.lookupValue]"
+                                            },
+                                            {
+                                                "elmType": "span",
+                                                "txtContent": "[$Description]",
+                                                "style": {
+                                                    "padding-top": "10px",
+                                                    "width": "100%"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "elmType": "a",
+                                        "style": {
+                                            "width": "40%",
+                                            "float": "right",
+                                            "margin": "5px",
+                                            "text-align": "center"
+                                        },
+                                        "attributes": {
+                                            "href": "[$FileRef]",
+                                            "target": "_blank"
+                                        },
+                                        "children": [
+                                            {
+                                                "elmType": "img",
+                                                "attributes": {
+                                                    "src": "@thumbnail.large"
+                                                }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}
