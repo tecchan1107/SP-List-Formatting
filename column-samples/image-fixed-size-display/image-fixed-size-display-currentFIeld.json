@@ -1,0 +1,20 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
+    "elmType": "div",
+    "style": {
+        "width": "250px"
+    },
+    "children": [
+        {
+            "elmType": "img",
+            "attributes": {
+                "src": "@currentField.serverRelativeUrl",
+                "alt": "@currentField.fileName"
+            },
+            "style": {
+                "width": "100%",
+                "max-width": "100%"
+            }
+        }
+    ]
+}
