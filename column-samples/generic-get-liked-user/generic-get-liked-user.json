@@ -1,0 +1,37 @@
+{
+    "$schema": "https://developer.microsoft.com/json-schemas/sp/column-formatting.schema.json",
+    "elmType": "a",
+    "attributes": {
+        "class": "ms-fontColor-themePrimary ms-fontColor-themeDark--hover",
+        "href": "= @currentWeb + '/_api/web/lists/GetByTitle('***********List Name***********')/Items(' + [$ID] + ')?$select=LikesCount,LikedBy/Title&$expand=LikedBy'",
+        "target": "_blank"
+    },
+    "style": {
+        "border": "none",
+        "background-color": "transparent",
+        "cursor": "pointer",
+        "text-decoration": "none"
+    },
+    "children": [
+        {
+            "elmType": "span",
+            "style": {
+                "margin-right": "10px"
+            },
+            "attributes": {
+                "iconName": "Contact",
+                "class": "ms-font-l"
+            }
+        },
+        {
+            "elmType": "span",
+            "txtContent": "いいね！したユーザーの取得 (XML)",
+            "style": {
+                "font-weight": "bold"
+            },
+            "attributes": {
+                "class": "ms-font-l"
+            }
+        }
+    ]
+}
