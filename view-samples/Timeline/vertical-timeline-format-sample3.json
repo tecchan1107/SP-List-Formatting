@@ -241,7 +241,7 @@
                                                     "display": "=if([$Image.serverRelativeUrl] == '' ,'none' ,'')"
                                                 },
                                                 "attributes": {
-                                                    "src": "[$Image.serverRelativeUrl]"
+                                                    "src": "=getThumbnailImage([$Image], 400, 400)"
                                                 }
                                             },
                                             {
